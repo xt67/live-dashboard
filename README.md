@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Live Data Dashboard
 
 A real-time data dashboard built with Streamlit and PostgreSQL that allows you to import data from ANY CSV or Excel file and visualize it in real-time.
