@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Live Data Dashboard
 
 A real-time data dashboard built with Streamlit and PostgreSQL that allows you to import data from ANY CSV or Excel file and visualize it in real-time.
@@ -167,3 +168,4 @@ Update the PostgreSQL connection string in both files if needed:
 ```python
 engine = create_engine('postgresql://username:password@host:port/database_name')
 ```
+=======
