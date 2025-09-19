@@ -10,7 +10,8 @@ import numpy as np
 import tempfile
 
 # Connect to PostgreSQL
-engine = create_engine('postgresql://postgres:1693@localhost:5432/data_dashboard')
+# TODO: Update with your actual database credentials
+engine = create_engine('postgresql://postgres:your_password@localhost:5432/data_dashboard')
 
 def ensure_tables_exist():
     """Create database tables if they don't exist"""

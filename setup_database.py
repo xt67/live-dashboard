@@ -18,7 +18,7 @@ def setup_database():
     default_host = "localhost"
     default_port = "5432"
     default_user = "postgres"
-    default_password = "1693"
+    default_password = ""  # No default password for security
     default_database = "data_dashboard"
     
     print("Enter your PostgreSQL connection details:")

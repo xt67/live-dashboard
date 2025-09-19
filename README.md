@@ -60,7 +60,20 @@ Open PowerShell/Command Prompt in your project folder and run:
 pip install -r requirements.txt
 ```
 
-### Step 3: Import Your Data
+### Step 3: Configure Database Connection
+1. Copy `config_template.py` to `config.py`
+2. Update `config.py` with your actual PostgreSQL credentials:
+```python
+DATABASE_CONFIG = {
+    'host': 'localhost',
+    'port': '5432',
+    'username': 'postgres',
+    'password': 'your_actual_password',  # Update this!
+    'database': 'data_dashboard'
+}
+```
+
+### Step 5: Launch the Dashboard
 Run the universal data importer with any CSV or Excel file:
 ```bash
 python data_importer.py

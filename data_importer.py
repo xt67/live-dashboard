@@ -9,7 +9,8 @@ from pathlib import Path
 import numpy as np
 
 # Connect to PostgreSQL
-engine = create_engine('postgresql://postgres:1693@localhost:5432/data_dashboard')
+# TODO: Update with your actual database credentials
+engine = create_engine('postgresql://postgres:your_password@localhost:5432/data_dashboard')
 
 def load_data_from_file(file_path):
     """Load data from CSV or Excel file with automatic encoding detection"""

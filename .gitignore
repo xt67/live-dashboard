@@ -3,6 +3,10 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Database configuration files (keep credentials secure)
+config.py
+.env
+
 # C extensions
 *.so
 
