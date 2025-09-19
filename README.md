@@ -115,7 +115,7 @@ The dashboard automatically adapts to your data and provides:
 
 1. **Open PowerShell** and navigate to your project:
    ```bash
-   cd "c:\Users\onlys\Documents\GitHub\live-dashboard-main"
+   cd "c:\Users\xt67\Documents\GitHub\live-dashboard-main"
    ```
 
 2. **Install dependencies** (first time only):
